@@ -1,0 +1,19 @@
+0.  A Gif is able to support 256 different colors. A BMP is able to utilize the millions of colors. A JPEG is able to utilize millions of colors. A PNG is able to use millions colors.
+1.  A GIF is able to support animation.
+2.  The difference between lossy and lossless compression is that with lossless compression quaility is perserved, while with lossy compression quaility is lost.
+3.  A JPEG uses lossy compression.
+4.  When the operating system erases a FAT file, two things occur. First, the system modifies the filename’s first character in the file’s directory entry to signal that the file has been deleted and that the directory entry can be recycled. Second, the system moves all of the file’s FAT clusters to the hard drive’s list of free clusters.
+5.  A person can overwrite files using Guttmann's pattern for overwriting.
+6.  The header file "stdint.h", contains typedefs and macros for making "int" variables of fix-sizes.
+7.  They allow a programmer to specify the desired amount of space in a file.
+8.  A "BYTE" is 8 bits long or 1 byte. A "DWORD" is 32 bits long or 4 bytes. A "Long" is 32 signed bits or 4 bytes. A "WORD" is 16 bits long or 2 bytes.
+9.  The first 2 bytes of a BMP in hexadecimal are 0x2d42.
+10. THe difference is that bfSize is the total number of bytes in the BMP file, which varies from file to file. Where biSize is the total number of bytes in the info header, which for a BMP is 40.
+11. If the biHeight is negative, the BMP is a top-down DIB with the origins at the upper left corner.
+12. In the "BITMAPINFORHEADER", the biBitCount specifies the color depth.
+13. The fopen function might return "NULL" if it does not have permission to create the output file or it cannot find the file.
+14. The third argument for fread specifies how many elements we want to read. Since we are reading from a struct, we only need that one element.
+15. The padding would be 3.
+16. The function fseek sets the file position indicator to a specific position in a file.
+17. The element SEEK_CUR is an "int" constant that takes the arguement of "whence" for fseek. It offsets the position indicator reletive to the current position indicator.
+18. Who dun it? Jackson Steinkamp.

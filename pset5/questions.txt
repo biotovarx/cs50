@@ -1,0 +1,11 @@
+0.  It is a lung disease, and is classified as the longest word in the english language.
+1.  The function getrusage returns resource usage measures for "who", a specified process or processes.
+2.  There are 16 members.
+3.  We do this because if we passed them by value, the whole structues would be copied into the calculate function wasting resources.
+4.  The speller program reads a word from the designated textfile one character at a time until it reaches the end of the file. If the character is either a letter or an apostrophe it is added to an array which is considered a word. If the length of the array becomes larger than the defined limit for an acceptable word, the that word/array is ignored. Also, if the array contains any numerical values it is also ignored. If the word has not been ignored, it is counted as a word and checked for spelling. The process continues until the end of the file.
+5.  The fgetc function allows us the flexibility to deal with possible numeric characters that we might encounter.
+6.  We declare the parameters as const because we are not modifying them so they can be stored in read-only memory.
+7.  I implemented a "Hash table" with linked lists as my data structure. My hash table size is 5000 and each node in my link list contains a word that is less than the maximum length of 46.
+8.  My code originally took about 3 sec to run.
+9.  My code ran well, the biggest issue was memory leaks. I needed to re-evaluate how I created my linked lists to plug those leaks. After altering my code the performance increase was dramatic.
+10. No, After working through my code I feel it runs quite well.
